@@ -1,0 +1,41 @@
+<!-- Versão 5 do HTML -->
+<!DOCTYPE html>
+<!-- Tag principal / Idioma da página -->
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Criando um formulário simples</title>
+    <!-- Link do o arquivo CSS (Na pasta STYLE) -->
+    <link rel="stylesheet" href="./style/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/1053/1053364.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Tag de início do formulário -->
+    <form>
+        <!-- Campo de login -->
+        <p class="label">
+            <label for="login">Login</label>
+        </p>
+        <input type="text" id="login" name="login" placeholder="Digite seu login">
+        <br><br>
+
+        <!-- Campo de senha -->
+        <p class="label">
+            <label for="password">Senha</label>
+        </p>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha">
+        <br><br>
+
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar" id="botao">
+    </form>
+</body>
+
+</html>

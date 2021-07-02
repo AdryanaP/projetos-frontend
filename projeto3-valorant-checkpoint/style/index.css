@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    margin: 0;
+    background-image: url(https://bit.ly/3zM1xje);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Chakra Petch', sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+header {
+    height: 5rem;
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-color: rgba(255, 99, 71, 0.801);
+    position: relative;
+    left: 15%;
+    text-align: center;
+    border-radius: 2%;
+}
+main {
+    height: auto;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    background-color: rgba(255, 99, 71, 0.801);
+    border-radius: 2%;
+}
+h3 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+#equipes {
+    position: relative;
+    left: 15%;
+    margin: 2rem;
+    padding-top: 2rem;
+}
+ul li {
+    padding: 2px;
+}
+
+#conteudo-texto {
+    margin: 3rem;
+    text-align: justify;
+}
+#chaveamento {
+    text-align: center;
+    margin: 15px;
+}
+#titulo-video{
+    font-size: medium;
+    margin: 4px;
+}
+#video {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+footer {
+    height: 5rem;
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 99, 71, 0.801);
+    position: relative;
+    left: 15%;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    border: none;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    color: white;
+}
+
+header p{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 3rem;
+}
+
+main {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.container {
+    padding: 0 25%;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    margin: 2rem;
+    color: rgb(134, 131, 131);
+    padding: 2rem;
+}
+
+fieldset legend {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.form-grupo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-endereco {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 1rem;
+}
+
+.form #numero {
+    width: 5vw;
+    height: 3vh;
+}
+
+.form #rua {
+    height: 0.4vh;
+}
+
+.form input{
+    display: flex;
+    padding: 3%;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 20%;
+    border: none;
+    background: rgb(241, 241, 241);
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form input::placeholder{
+    color: rgb(184, 181, 181);
+}
+
+.form label {
+    margin-bottom: 0;
+    display: block;
+    text-align: left;
+}
+
+.form input #rua {
+    width: 100%
+}
+
+option{
+    display: block;
+}
+
+select{
+    display: block;
+    margin: 0px auto 15px;
+}
+
+.form select {
+    width: 100%;
+    text-align: left;
+    padding: 3%;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 20%;
+    border: none;
+    background: rgb(241, 241, 241);
+}
+
+.form-check {
+    text-align: left;
+}
+
+.metodoPagamento label {
+    display: inline-block;
+}
+
+.opcionais label {
+    display: inline-block;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+button.botoes{
+    margin-top: 2%;
+    padding: 0.8rem 2rem;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:active {
+    position: relative;
+    top: 0.1rem;
+}
+
+.botoes#enviar {
+    background: #02e05e;
+
+}
+
+.botoes#cancelar {
+    background: #e25252;
+}

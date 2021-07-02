@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Mate+SC&family=Press+Start+2P&display=swap');
+/* resset css */
+html * {
+    margin: 0;
+    font-family: 'Mate SC', serif;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(https://bit.ly/3xr5yI9);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    color: rgb(243, 174, 255);
+}
+#cabecalho {
+    margin: 10vh;
+    height: 10vh;
+    /* background-color: rgba(137, 43, 226, 0.308); */
+}
+h1 {
+    font-family: 'Bungee', cursive; 
+}
+.linksSites {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.subtitulo {
+    margin: 30px;
+    margin-top: 10px;
+}
+.imgPreview {
+    width: 300px;
+    height: 250px;
+    margin: 10vh;
+    margin-top: 10px;
+}
+a {
+    color: #D1C4E9;
+}
+#rodape {
+    height: 20vh;
+    /* background-color: rgba(137, 43, 226, 0.308); */
+}
+.icones {
+    width: 100px;
+}

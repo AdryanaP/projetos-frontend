@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://bit.ly/3xb8PeI" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>iFome</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/icon-ifome.png" alt="Logo iFome">
+        <p>Gosto muito de tudo isso!</p>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <!-- Formulário -->
+            <form action="./enviado.html" method="post">
+
+                <!-- Seção de dados pessoais -->
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <div class="form-grupo">
+
+                        <div class="form">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="insira seu email">
+                        </div>
+
+                        <div class="form">
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="insira seu nome">
+                        </div>
+
+                        <div class="form-endereco">
+                            <div class="form">
+                                <label for="rua">Rua:</label>
+                                <input type="text" name="rua" id="rua" placeholder="insira o nome da rua">
+                            </div>
+
+                            <div class="form">
+                                <label for="numero">Nº</label>
+                                <input type="number" name="numero" id="numero" placeholder="ex: 123">
+                            </div>
+                        </div>
+
+                        <div class="form">
+                            <label for="bairro">Bairro:</label>
+                            <input type="text" name="bairro" id="bairro" placeholder="insira o nome do bairro">
+                        </div>
+
+                        <div class="form">
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" name="cidade" id="cidade" placeholder="insira o nome da cidade">
+                        </div>
+
+                    </div>
+                </fieldset>
+
+                <!-- Seção de lanches -->
+                <fieldset>
+                    <legend>Escolha seu lanche</legend>
+
+                    <div class="form">
+                        <select name="lanches" id="lanches">
+
+                            <option value="">Selecione uma opção</option select >
+
+                            <optgroup label="-- Salgados --">
+                                <option value="batataFrita">Batata Frita</option>
+                                <option value="focaccia">Focaccia</option>
+                                <option value="pizza">Pizza</option>
+                                <option value="coxinha">Coxinha</option>
+                                <option value="xBurguer">X-Burguer</option>
+                                <option value="hotFiladelfia">Hot Filadelfia</option>
+                            </optgroup>
+
+                            <optgroup label="-- Doces --">
+                                <option value="sorvete">Sorvete</option>
+                                <option value="brigadeiro">Brigadeiro</option>
+                                <option value="acai">Açaí</option>
+                                <option value="pacoca">Paçoca</option>
+                                <option value="sonhoChocolate">Sonho de Chocolate</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <!-- Seção de Opcionais -->
+                <fieldset>
+                    <legend>Opcionais</legend>
+                    <div class="form-check">
+
+                        <div class="check">
+                            <input type="checkbox" name="colher" id="colher">
+                            <label for="colher">Colher</label>
+                        </div>
+
+                        <div class="check">
+                            <input type="checkbox" name="garfo" id="garfo">
+                            <label for="garfo">Garfo</label>
+                        </div>
+
+                        <div class="check">
+                            <input type="checkbox" name="hashi" id="hashi">
+                            <label for="hashi">Hashi</label>
+                        </div>
+                    </div>
+
+                </fieldset>
+
+                <!-- Seção de Pagamento -->
+                <fieldset>
+                    <legend>Método de Pagamento</legend>
+                    <div class="form-check">
+
+                        <div class="check">
+                            <input type="radio" name="pagamento" id="dinheiro" value="dinheiro" checked>
+                            <label for="dinheiro">Dinheiro</label>
+                        </div>
+
+                        <div class="check">
+                            <input type="radio" name="pagamento" id="credito" value="credito">
+                            <label for="credito">Credito</label>
+                        </div>
+
+                        <div class="check">
+                            <input type="radio" name="pagamento" id="debito" value="debito">
+                            <label for="debito">Debito</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <!-- Seção de agendamento -->
+                <fieldset>
+                    <legend>Agendar para quando?</legend>
+                    <div class="form">
+                        <input type="datetime-local" name="data" id="data">
+                    </div>
+                </fieldset>
+
+                <!-- Seção de Botões -->
+                <div class="buttons">
+                    <button type="submit" class="botoes" id="enviar">Enviar</button>
+                    <button type="reset" class="botoes" id="cancelar">Cancelar</button>
+                </div>
+            </form>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
