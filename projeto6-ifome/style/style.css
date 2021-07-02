@@ -136,6 +136,7 @@ button.botoes{
     font-size: 18px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 button:active {
@@ -150,4 +151,11 @@ button:active {
 
 .botoes#cancelar {
     background: #e25252;
+}
+
+a:link, a:visited, a:target * {
+    border: none;
+    margin: none;
+    text-decoration: none;
+    color: black;
 }
