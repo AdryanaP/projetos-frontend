@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="https://bit.ly/3dWwl7y" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>Peça sua bebida - Dry Biritas</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Logo Dry Biritas">
+        <p>As melhores bebidas estão nos <strong>nossos</strong> frascos</p>
+    </header>
+
+    <main>
+        <span id="fundo-img">
+            <div class="container">
+                <div id="form-caixa">
+                    <h1>Faça seu pedido</h1>
+
+                    <!-- Formulário -->
+                    <form method="post">
+
+                        <!-- Seção de dados pessoais -->
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                            <div class="form-grupo">
+
+                                <div class="form">
+                                    <label for="email">Email:</label>
+                                    <input type="email" name="email" id="email" placeholder="insira seu email">
+                                </div>
+
+                                <div class="form">
+                                    <label for="nome">Nome:</label>
+                                    <input type="text" name="nome" id="nome" placeholder="insira seu nome">
+                                </div>
+
+                                <div class="form-endereco">
+                                    <div class="form">
+                                        <label for="rua">Rua:</label>
+                                        <input type="text" name="rua" id="rua" placeholder="insira o nome da rua">
+                                    </div>
+
+                                    <div class="form">
+                                        <label for="numero">Nº</label>
+                                        <input type="number" name="numero" id="numero" placeholder="ex: 123">
+                                    </div>
+                                </div>
+
+                                <div class="form">
+                                    <label for="bairro">Bairro:</label>
+                                    <input type="text" name="bairro" id="bairro" placeholder="insira o nome do bairro">
+                                </div>
+
+                                <div class="form">
+                                    <label for="cidade">Cidade:</label>
+                                    <input type="text" name="cidade" id="cidade" placeholder="insira o nome da cidade">
+                                </div>
+
+                            </div>
+                        </fieldset>
+
+                        <!-- Seção de bebidas -->
+                        <fieldset>
+                            <legend>Escolha sua Bebida</legend>
+
+                            <div class="form">
+
+                                <!-- Escolha de bebida -->
+                                <select name="bebidas" id="bebidas">
+
+                                    <option value="">Selecione uma opção</option select>
+
+                                    <optgroup label="-- Alcoólicas --">
+                                        <option value="cerveja">Cerveja</option>
+                                        <option value="vinho">Vinho</option>
+                                        <option value="vodka">Vodka</option>
+                                        <option value="gin">Gin</option>
+                                        <option value="cachaca">Cachaça</option>
+                                        <option value="tequila">Tequila</option>
+                                        <option value="champanhe">Champanhe</option>
+                                        <option value="whisky">Whisky</option>
+                                    </optgroup>
+
+                                    <optgroup label="-- Não-Alcoólicas --">
+                                        <option value="refrigerante">Refrigerante</option>
+                                        <option value="energetico">Energético</option>
+                                        <option value="agua">Água</option>
+                                        <option value="suco">Suco</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </fieldset>
+
+                        <!-- Seção de Pagamento -->
+                        <fieldset>
+                            <legend>Método de Pagamento</legend>
+                            <div class="form-check">
+
+                                <div class="check">
+                                    <input type="radio" name="pagamento" id="dinheiro" value="dinheiro" checked>
+                                    <label for="dinheiro">Dinheiro</label>
+                                </div>
+
+                                <div class="check">
+                                    <input type="radio" name="pagamento" id="credito" value="credito">
+                                    <label for="credito">Credito</label>
+                                </div>
+
+                                <div class="check">
+                                    <input type="radio" name="pagamento" id="debito" value="debito">
+                                    <label for="debito">Debito</label>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <!-- Seção de agendamento -->
+                        <fieldset>
+                            <legend>Agendar para quando?</legend>
+                            <div class="form">
+                                <input type="datetime-local" name="data" id="data">
+                            </div>
+                        </fieldset>
+
+                        <!-- Seção de Botões -->
+                        <div class="buttons">
+
+                            <button type="button" class="botoes" id="enviar"><a
+                                    href="./enviado.html">Enviar</a></button>
+                            <button type="reset" class="botoes" id="cancelar">Cancelar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Imagem fixada de com animação de brinde -->
+            <span>
+                <img src="./images/cheers.png" id="what-img" alt="Duas taças brindando">
+            </span>
+            </div>
+        </span>
+    </main>
+</body>
+
+</html>

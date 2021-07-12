@@ -1,0 +1,12 @@
+main {
+    text-align: center;
+    /* padding: 0 25%; */
+    padding: 0 30%;
+}
+
+.content {
+    background: #02e05e;
+    padding: 4rem;
+    border-radius: 10px;
+    width: auto;
+}
