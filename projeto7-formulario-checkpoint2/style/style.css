@@ -118,7 +118,8 @@ fieldset legend {
 
 .form input:focus {
     outline: none;
-    border: 1px solid gold;
+    border: none;
+    box-shadow: 0 0 0 1px gold;
 }
 
 .form input:hover {
@@ -160,8 +161,9 @@ select {
 }
 
 select:focus {
-    outline: none;
-    border: 1px solid gold
+    outline: gold;
+    border: none;
+    box-shadow: 0 0 0 1px gold;
 }
 
 select:hover {
